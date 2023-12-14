@@ -1,17 +1,18 @@
 
-
+<html>
 <head>
+<link rel="stylesheet" href="style.css">
+
     <title>My PROFILE</title>
 </head>
-<H1>DEFENCE PROGRAMMING TEAM</H1>
+<H1 class="role company">link DEFENCE PROGRAMMING TEAM</H1>
 <H2>"THE BEST IS COME YET" </H2>
 
 <body>
 
-
     <div>
         <img src="C:\Users\MOD\Documents\second project\image/RR.JPG" alt="Flowers in Chania">
-        <h13>GENET WORKU</h13>
+        <h3 class="sectiontitle">GENET WORKU</h3>
         <h3>Web Developer At DEFENCE FORCE</h3>
         <p> 
     </div>
@@ -26,7 +27,7 @@
             </ul>
         </div>
         <div>
-            <h3>I like to</h3>
+            <h3 class="sectiontitle">I like to</h3>
             <ul>
             <li>Meet new people</li>
             <li>Play guitar</li>
@@ -35,7 +36,7 @@
         </div>
     </div>
     <div>
-        <h3>Links</h3>
+        <h3 class="sectiontitle">Links</h3>
         <ul>
           <li>
             <a href="https://github.com/<user>">Github</a>
@@ -50,6 +51,55 @@
   </div>
 
 
+  <form>
+    <p>Gender : 
+        <label>Male</label>
+        <input type="radio" name="gender" value="male" />
+        <label>Female</label> 
+        <input type="radio" name="gender" value="female" />
+    </p>
+    <p>
+        Language: 
+        <ul style="list-style-type:none;">
+            <li>
+                <input type="checkbox" name="language" value="english" /> English
+            </li>
+            <li>
+                <input type="checkbox" name="language" value="german" /> German
+            </li>
+
+
+            <li>
+                <input type="checkbox" name="language" value="arabic" /> Arabic
+            </li>
+        </ul>
+    </p>
+    <p>
+        <label>Nationality: </label>
+        <select name="nationality">
+            <option value="british">British</option>
+            <option value="german">German</option>
+            <option value="uae">UAE</option>
+            <option value="others">Others</option>
+        </select>
+    </p>
+    <p>
+        <label>Username : </label>
+        <input type="text" />
+    </p>
+    <p>
+        <label>Password : </label>
+        <input type="password" />
+    </p>
+    <p>
+        <label>Brief Info About You: </label>
+        <textarea name="briefInfo" rows="5" cols="40">
+        </textarea>
+    </p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+</form>
 
 </body>
 </html>
